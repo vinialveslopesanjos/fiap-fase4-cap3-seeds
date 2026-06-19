@@ -1,0 +1,6 @@
+model,accuracy,precision,recall,f1
+random_forest,0.9206,0.9239,0.9206,0.9192
+knn,0.873,0.8721,0.873,0.8713
+svm,0.873,0.8721,0.873,0.8713
+logistic_regression,0.8571,0.8571,0.8571,0.8543
+naive_bayes,0.8254,0.8339,0.8254,0.8251
