@@ -36,13 +36,13 @@ def main() -> int:
     subprocess.run(cmd, cwd=TASK_ROOT, check=True)
 
     if not args.skip_eda:
-        _run("scripts/run_eda.py", "Etapa 2 — Igor: EDA + figuras")
+        _run("scripts/run_eda.py", "Etapa 2 — EDA + figuras")
 
-    _run("ml/classify.py", "Etapa 3 — Higor: classificadores + tuning")
+    _run("ml/classify.py", "Etapa 3 — classificadores + tuning")
 
     print("\n[pipeline] Concluído.")
-    print("  Humberto: consolidar notebook + docs/insights.md")
-    print("  Higor: submeter no portal assign 614329")
+    print("  Consolidar notebook + docs/insights.md")
+    print("  Submeter no portal assign 614329")
     print("  Gates: python scripts/harness_check.py")
     return 0
 

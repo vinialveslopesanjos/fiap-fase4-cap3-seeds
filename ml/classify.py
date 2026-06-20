@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Classificação Seeds — CRISP-DM tarefas 2–3 (Higor)."""
+"""Classificação Seeds — CRISP-DM tarefas 2–3."""
 
 from __future__ import annotations
 

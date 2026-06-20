@@ -1,6 +1,6 @@
 # Resumo CRISP-DM — Cap 3 Seeds (1 página)
 
-> **Responsável:** Humberto · Preencher após Igor (EDA) e Higor (ML)
+> Resumo individual das etapas CRISP-DM.
 
 ## 1. Entendimento do negócio
 
@@ -10,19 +10,19 @@ Cooperativa classifica grãos de trigo (Kama, Rosa, Canadian) — automação re
 
 - 210 amostras, 7 atributos físicos + classe
 - Fonte: UCI Seeds Dataset
-- _Igor: resumir achados de missing/escala aqui_
+- Resumir achados de missing/escala aqui.
 
 ## 3. Preparação
 
-- _Igor: normalização? train/test 70/30_
+- Descrever normalização e divisão treino/teste.
 
 ## 4. Modelagem
 
-- _Higor: listar 3+ algoritmos e melhor F1_
+- Listar 3+ algoritmos e melhor F1.
 
 ## 5. Avaliação
 
-- _Higor: matriz de confusão + Grid Search_
+- Incluir matriz de confusão e Grid Search.
 
 ## 6. Implantação
 

@@ -18,7 +18,7 @@ ML_CLASSIFY = ML_DIR / "classify.py"
 BEST_MODEL = MODELS_DIR / "best_classifier.joblib"
 METRICS_JSON = MODELS_DIR / "classification_metrics.json"
 COMPARISON_CSV = MODELS_DIR / "model_comparison.csv"
-NOTEBOOK_FINAL = NOTEBOOKS_DIR / "seeds_classification_RM571820.ipynb"
+NOTEBOOK_FINAL = NOTEBOOKS_DIR / "seeds_classification_RM572814.ipynb"
 INSIGHTS_MD = DOCS_DIR / "insights.md"
 
 SEEDS_URL = "https://archive.ics.uci.edu/ml/machine-learning-databases/00236/seeds_dataset.txt"

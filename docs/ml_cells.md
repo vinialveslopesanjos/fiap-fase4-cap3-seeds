@@ -1,4 +1,4 @@
-# Células ML — colar no notebook (Higor → Humberto)
+# Células ML — colar no notebook
 
 > Exportar de `ml/classify.py` / `models/classification_metrics.json`.
 

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""EDA Seeds — tarefa 1 (Igor). Gera figuras sem notebook pesado."""
+"""EDA Seeds — gera figuras sem notebook pesado."""
 
 from __future__ import annotations
 

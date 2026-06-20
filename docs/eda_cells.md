@@ -1,6 +1,6 @@
-# Células EDA — colar no notebook (Igor → Humberto)
+# Células EDA — colar no notebook
 
-> Gerado/atualizado por Igor. Humberto integra em `seeds_classification_RM571820.ipynb`.
+> Material auxiliar para integrar em `seeds_classification_RM572814.ipynb`.
 
 ## Seção 1 — Import e carga
 
@@ -28,7 +28,7 @@ df.isna().sum()
 
 ```python
 from sklearn.preprocessing import StandardScaler
-# Igor documenta se aplicou scaling antes do ML
+# Documentar se aplicou scaling antes do ML
 ```
 
 _SUBSTITUIR com células executadas após `python scripts/run_eda.py`._

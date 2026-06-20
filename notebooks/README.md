@@ -1,33 +1,34 @@
 # Notebooks — Cap 3 Seeds
 
-## Fluxo do grupo
+## Fluxo individual
 
-1. **Igor** — EDA via `python scripts/run_eda.py` (gera `figures/`) ou células iniciais aqui
-2. **Higor** — ML via `python ml/classify.py` (métricas em `models/`)
-3. **Humberto** — consolida tudo em **um** arquivo; **Higor** submete no portal
+O notebook final consolida EDA, modelagem, avaliação e interpretação dos resultados em um único arquivo:
 
-   `notebooks/seeds_classification_RM571820.ipynb`
+`notebooks/seeds_classification_RM572814.ipynb`
 
-## Template sugerido (seções)
+## Seções sugeridas
 
-1. Introdução + download dataset (`data/seeds.csv`)
-2. EDA (stats, histogramas, boxplots, scatter) — pode embutir `figures/`
-3. Modelos (≥3) + matriz de confusão
-4. Grid Search + comparação antes/depois
-5. Interpretação — copiar de `docs/insights.md`
+1. Introdução + download/carregamento do dataset (`data/seeds.csv`)
+2. EDA: estatísticas, histogramas, boxplots e scatter plots
+3. Preparação dos dados e divisão treino/teste
+4. Modelos de classificação, com pelo menos 3 algoritmos
+5. Grid Search e comparação antes/depois
+6. Matriz de confusão e métricas finais
+7. Interpretação dos resultados e conclusão
 
 ## Atalho Colab
 
 ```python
 # Célula 1 — após upload do seeds.csv
 import pandas as pd
+
 df = pd.read_csv("seeds.csv")
 df.head()
 ```
 
-## Gate Humberto
+## Gate do notebook
 
 ```bash
-test -f notebooks/seeds_classification_RM571820.ipynb && echo OK
-python scripts/harness_check.py --role humberto
+test -f notebooks/seeds_classification_RM572814.ipynb && echo OK
+python scripts/harness_check.py
 ```
